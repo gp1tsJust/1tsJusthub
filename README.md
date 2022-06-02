@@ -8,6 +8,19 @@ if game.PlaceId == 155615604 then
     --MAIN
     local Main = Window:NewTab("Main")
     local MainSection = Main:NewSection("Main")
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "1tsJusthub injected";
+        Text = "U are cool mannnn";
+        Duration = "15";
+        })
+
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "1tsJusthub injected";
+            Text = "U are cool mannnn";
+            Duration = "15";
+            })
+
+            
     MainSection:NewDropdown("Gun", "Pighiati e sparati", {"M9", "Remington 870", "AK-47"}, function(v)
         local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver[v].ITEMPICKUP
         local Event = game:GetService("Workspace").Remote.ItemHandler
@@ -192,7 +205,23 @@ elseif game.PlaceId == 536102540 then
     local Main = Window:NewTab("Misc")
     local MiscSection = Main:NewSection("Misc")
 
+    game.StarterGui:SetCore("SendNotification", {
+        Title = "1tsJusthub injected";
+        Text = "U are cool mannnn";
+        Duration = "15";
+        })
 
+        game.StarterGui:SetCore("SendNotification", {
+            Title = "1tsJusthub injected";
+            Text = "U are cool mannnn";
+            Duration = "15";
+            })
+
+            game.StarterGui:SetCore("SendNotification", {
+                Title = "1tsJusthub injected";
+                Text = "U are cool mannnn";
+                Duration = "15";
+                })
 
 
 
