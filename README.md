@@ -129,12 +129,33 @@ end);
 
         
 
-        MiscSection:NewButton("Infiniti yield", "ButtonInfo", function()
+        MiscSection:NewButton("Infiniti yield", "Infiniti yield", function()
             loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
     end)
 
 
-    MiscSection:NewButton("Anti Afk", "Va'mancia sta zit", function()
+	local Main = Window:NewTab("Anti Script")
+    local AntiSection = Main:NewSection("Anti Script")
+
+
+	AntiSection:NewButton("Anti Glich", "Anti Glich", function()
+		if not game:IsLoaded() then
+			game.Loaded:Wait()
+			end
+			
+			local plr = game.Players.LocalPlayer
+			
+			while wait() do
+				pcall(function()
+					game:GetService("Workspace").Live[plr.Name].LowerTorso.BodyVelocity:Destroy()
+				end)
+			end
+	end)
+
+
+
+
+    AntiSection:NewButton("Anti Afk", "Va'mancia sta zit", function()
         wait(0.5)local ba=Instance.new("ScreenGui")
 	local ca=Instance.new("TextLabel")local da=Instance.new("Frame")
 	local _b=Instance.new("TextLabel")local ab=Instance.new("TextLabel")ba.Parent=game.CoreGui
@@ -156,7 +177,7 @@ end);
 		ab.Text="Roblox Tried to kick you but we didnt let them kick you :D"wait(2)ab.Text="Status : Active"end)
     end)
 
-    MiscSection:NewButton("Anti Kick", "Anti kick", function()
+    AntiSection:NewButton("Anti Kick", "Anti kick", function()
         if not game:IsLoaded() then game.Loaded:Wait() end
 
 local FinalStandTable = {536102540, 569994010, 2050207304, 882399924, 2046990924, 478132461, 3552157537, 2651456105, 3565304751, 535527772, 882375367, 3552158750}
