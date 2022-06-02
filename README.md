@@ -200,6 +200,62 @@ return(function(NDR_h,NDR_a,NDR_l)local NDR_k=string.char;local NDR_e=string.sub
 
 
 
+	RespawnSection:NewKeybind("Fast Reset", "Press L", Enum.KeyCode.L, function()
+		local plr = game:GetService("Players").LocalPlayer
+game.Workspace:WaitForChild("Live")
+game.Workspace.Live:WaitForChild(plr.Name)
+local Char = plr.Character
+local portal = game.workspace["Wormhole"]
+local Mouse = plr:GetMouse()
+
+
+game:GetService("RunService").RenderStepped:connect(
+    function()
+Mouse.KeyDown:connect(function(Key)
+    Key = Key:lower()
+    if Key == "" then
+        game:GetService("TweenService"):Create(
+           game.Players.LocalPlayer.Character.HumanoidRootPart,
+           TweenInfo.new(1.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
+           {CFrame = CFrame.new(2656.7854, 3946.00439, -2515.78467, 0.969526529, 0, -0.244986445, -0, 1, -0, 0.244986445, 0, 0.969526529)}
+           ):Play()
+    end
+end)
+end)
+
+
+        function respawnx()
+            local args = {
+                [1] = workspace.FriendlyNPCs:FindFirstChild("Hair Stylist")
+                }
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(unpack(args))
+                wait(.3)
+            local args = {
+                [1] = {
+                        [1] = "Yes"
+                    }
+                }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
+                wait(.3)
+            local args = {
+                [1] = "woah"
+                }
+            game:GetService("Players").LocalPlayer.Backpack.HairScript.RemoteEvent:FireServer(unpack(args))
+            end
+            
+           
+Mouse.KeyDown:connect(function(Key)
+                Key = Key:lower()
+            if Key == "l" then
+            respawnx()
+            end
+end)
+	end)
+
+
+
+
 	RespawnSection:NewKeybind("Hard Reset", "Press N", Enum.KeyCode.N, function()
 		print("Injected!")
 print("Fast Hard Reset")
