@@ -1,3 +1,6 @@
+
+--PRISON LIFEEEE
+
 if game.PlaceId == 155615604 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("1tsJustHub v2(Prison Life)", "Sentinel")
@@ -10,6 +13,28 @@ if game.PlaceId == 155615604 then
         local Event = game:GetService("Workspace").Remote.ItemHandler
         Event:InvokeServer(A_1)
     end)
+
+
+    MainSection:NewDropdown("Gun Mod", "Makes the gun op", {"M9", "Remington 870", "AK-47"}, function(v)
+        local module = nil
+        if game:GetService("Players").LocalPlayer.Backpack:FindFirstChild(v) then
+            module = require(game:GetService("Players").LocalPlayer.Backpack[v].GunStates)
+        elseif game:GetService("Players").LocalPlayer.Character:FindFirstChild(v) then
+            module = require(game:GetService("Players").LocalPlayer.Character[v].GunStates)
+        end
+        if module ~= nil then
+            module["MaxAmmo"] = math.huge
+            module["CurrentAmmo"] = math.huge
+            module["StoredAmmo"] = math.huge
+            module["FireRate"] = 0.000001
+            module["Spread"] = 0
+            module["Range"] = math.huge
+            module["Bullets"] = 10
+            module["ReloadTime"] = 0.000001
+            module["AutoFire"] = true
+        end
+    end)
+
     
     
     MainSection:NewButton("KeyCard", "Chiave anale", function()
@@ -24,7 +49,6 @@ if game.PlaceId == 155615604 then
 	local Text = Instance.new("TextLabel")
 	local BT = Instance.new("TextButton")
 
-	--Properties:
 
 	ScreenGui.Parent = game.CoreGui
 
@@ -97,6 +121,43 @@ if game.PlaceId == 155615604 then
 
 
 
+    local Main = Window:NewTab("Teleport")
+    local TPSection = Main:NewSection("Teleport")
+
+    TPSection:NewButton("Prison", "Tp to prison", function()
+        local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(914, 99, 2377)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+wait(0.1)
+pl.CFrame = location
+    end)
+
+    TPSection:NewButton("Yard", "Tp to Yard", function()
+        local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(780, 97, 2461)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+wait(0.1)
+pl.CFrame = location
+    end)
+
+    TPSection:NewButton("Criminal Base", "TP to Criminal Base", function()
+        local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(-943, 94, 2064)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+wait(0.1)
+pl.CFrame = location
+    end)
+
+    TPSection:NewButton("Police Base", "TP to Police Base", function()
+        local pl = game.Players.LocalPlayer.Character.HumanoidRootPart
+local location = CFrame.new(834, 99, 2303)
+local humanoid = game.Players.LocalPlayer.Character.Humanoid
+wait(0.1)
+pl.CFrame = location
+    end)
+
+
+    --Old Version
 
 	local Main = Window:NewTab("Old version")
     local Old1Section = Main:NewSection("Prove old Version")
