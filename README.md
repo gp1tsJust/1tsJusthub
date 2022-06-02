@@ -96,6 +96,29 @@ if game.PlaceId == 155615604 then
     end)
 
 
+
+
+	local Main = Window:NewTab("Old version")
+    local Old1Section = Main:NewSection("Prove old Version")
+
+
+	Old1Section:NewButton("1tsJusthub v1(Prison Life)", "prove 1tsJusthub v1(DBZ FS)", function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/gp1tsJust/prison-life/main/README.md"), true))()
+	end)
+
+
+
+
+	local Main = Window:NewTab("Credit")
+    local Credit2Section = Main:NewSection("Credit to 1tsJustgp")
+	local Ds1Section = Main:NewSection("Discord private gp1tsJust#3203")
+	local Dserver3Section = Main:NewSection("Server Discord https://discord.gg/TWqQNcpN")
+
+
+
+
+
+
 		--DRAGON BALL Z FINAL STAND
 
 
@@ -489,5 +512,27 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 	MiscSection:NewKeybind("Hide UI", "Hide UI", Enum.KeyCode.RightControl, function()
 		Library:ToggleUI()
 	end)
+
+
+
+	local Main = Window:NewTab("Old version")
+    local OldSection = Main:NewSection("Prove old Version")
+
+
+	OldSection:NewButton("1tsJusthub v1(DBZ FS)", "prove 1tsJusthub v1(DBZ FS)", function()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/gp1tsJust/Dbz/main/README.md"), true))()
+	end)
+
+
+	--Credit
+
+	local Main = Window:NewTab("Credit")
+    local CreditSection = Main:NewSection("Credit to 1tsJustgp")
+	local DsSection = Main:NewSection("Discord private gp1tsJust#3203")
+	local DserverSection = Main:NewSection("Server Discord https://discord.gg/TWqQNcpN")
+
+
+
+
 
 end
