@@ -173,6 +173,26 @@ return(function(NDR_h,NDR_a,NDR_l)local NDR_k=string.char;local NDR_e=string.sub
 
 	end)
 
+		--Charapterr
+
+
+	local Main = Window:NewTab("Charapter")
+    local CharapterSection = Main:NewSection("Charapter")
+
+	CharapterSection:NewButton("Hide Level", "Hide your Level", function()
+		if not game:IsLoaded() then
+			game.Loaded:Wait()
+			end
+			wait(2)
+			game.Players.LocalPlayer.Character:FindFirstChildOfClass("Model"):Destroy()
+	end)
+
+
+
+
+
+
+
 	--respawnnn
 
 	local Main = Window:NewTab("Respawn")
@@ -180,7 +200,7 @@ return(function(NDR_h,NDR_a,NDR_l)local NDR_k=string.char;local NDR_e=string.sub
 
 
 
-	RespawnSection:NewButton("Hard reset", "Press N To Hard Reset", function()
+	RespawnSection:NewKeybind("Hard Reset", "Press N", Enum.KeyCode.N, function()
 		print("Injected!")
 print("Fast Hard Reset")
 wait(0.1)
@@ -268,6 +288,84 @@ end
 
     local Main = Window:NewTab("Bully")
     local BullySection = Main:NewSection("Bully Mode")
+
+
+	BullySection:NewKeybind("Dragon Trow glich", "dragon trow on Y for glich and click K to start", Enum.KeyCode.K, function()
+		local plr = game:GetService("Players").LocalPlayer
+game.Workspace:WaitForChild("Live")
+game.Workspace.Live:WaitForChild(plr.Name)
+local Char = plr.Character
+local portal = game.workspace["Wormhole"]
+local Mouse = plr:GetMouse()
+
+
+game:GetService("RunService").RenderStepped:connect(
+    function()
+Mouse.KeyDown:connect(function(Key)
+    Key = Key:lower()
+    if Key == "" then
+        game:GetService("TweenService"):Create(
+           game.Players.LocalPlayer.Character.HumanoidRootPart,
+           TweenInfo.new(1.2, Enum.EasingStyle.Linear, Enum.EasingDirection.Out),
+           {CFrame = CFrame.new(2656.7854, 3946.00439, -2515.78467, 0.969526529, 0, -0.244986445, -0, 1, -0, 0.244986445, 0, 0.969526529)}
+           ):Play()
+    end
+end)
+end)
+
+
+        function respawnx()
+            local args = {
+                [1] = workspace.FriendlyNPCs:FindFirstChild("Hair Stylist")
+                }
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatStart:FireServer(unpack(args))
+                wait(.3)
+            local args = {
+                [1] = {
+                        [1] = "Yes"
+                    }
+                }
+            
+            game:GetService("Players").LocalPlayer.Backpack.ServerTraits.ChatAdvance:FireServer(unpack(args))
+                wait(.3)
+            local args = {
+                [1] = "woah"
+                }
+            game:GetService("Players").LocalPlayer.Backpack.HairScript.RemoteEvent:FireServer(unpack(args))
+            end
+            
+           
+Mouse.KeyDown:connect(function(Key)
+                Key = Key:lower()
+            if Key == "" then
+            respawnx()
+            end
+end)
+
+Mouse.KeyDown:connect(function(Key)
+    Key = Key:lower()
+if Key == "y" then
+wait(.2)
+    Char["Dragon Throw"]:Activate()
+    wait(.2)
+    Char["Dragon Throw"]:Deactivate()
+    Char["Dragon Throw"].Parent = plr.Backpack
+end
+end)
+
+game:service'RunService'.RenderStepped:connect(function()
+    pcall(function()
+        game:GetService("Workspace").Wormhole:Destroy()
+      game.Players.LocalPlayer.Character.Action:Destroy()
+    end)
+  end)
+
+  game:service'RunService'.RenderStepped:connect(function()
+    pcall(function()
+        game.Workspace.Live[plr.Name]["Dragon Throw"].Activator["Flip"]:Destroy()
+    end)
+  end)
+	end)
 
 
 
