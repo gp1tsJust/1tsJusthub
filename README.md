@@ -39,22 +39,6 @@ local A_1 = game:GetService("Workspace")["Prison_ITEMS"].single.Hammer.ITEMPICKU
 local Event = game:GetService("Workspace").Remote.ItemHandler
 Event:InvokeServer(A_1)
     end)
-
-    MainSection:NewButton("Extendo mirror", "give u Extendo mirror", function()
-        local copy = game.ReplicatedStorage.Tools["Extendo mirror"]:Clone()
-	
-	copy.Parent = game.Players.LocalPlayer.Backpack
-    end)
-
-    MainSection:NewButton("Sharpened stick", "Give u Sharpened stick", function()
-        local copy = game.ReplicatedStorage.Tools["Sharpened stick"]:Clone()
-	
-        copy.Parent = game.Players.LocalPlayer.Backpack
-        
-    end)
-    
-
-    
     
     MainSection:NewButton("KeyCard", "Chiave anale", function()
          local A_1 = game:GetService("Workspace")["Prison_ITEMS"].single["Key card"].ITEMPICKUP
@@ -174,6 +158,25 @@ local humanoid = game.Players.LocalPlayer.Character.Humanoid
 wait(0.1)
 pl.CFrame = location
     end)
+
+    --SCRIPTED WEAPON-- 
+
+    local Main = Window:NewTab("Scripted Item")
+    local SiSection = Main:NewSection("give u Scripted Item")
+
+    SiSection:NewButton("Extendo mirror", "give u Extendo mirror", function()
+        local copy = game.ReplicatedStorage.Tools["Extendo mirror"]:Clone()
+	
+	copy.Parent = game.Players.LocalPlayer.Backpack
+    end)
+
+    SiSection:NewButton("Sharpened stick", "Give u Sharpened stick", function()
+        local copy = game.ReplicatedStorage.Tools["Sharpened stick"]:Clone()
+	
+        copy.Parent = game.Players.LocalPlayer.Backpack
+        
+    end)
+
 
 
     --Old Version
