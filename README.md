@@ -216,7 +216,7 @@ pl.CFrame = location
     local Old1Section = Main:NewSection("Prove old Version")
 
 
-	Old1Section:NewButton("1tsJusthub v1(Prison Life)", "prove 1tsJusthub v1(DBZ FS)", function()
+	Old1Section:NewButton("1tsJusthub v1(Prison Life)", "prove 1tsJusthub v1(Prison Life)", function()
 		loadstring(game:HttpGet(("https://raw.githubusercontent.com/gp1tsJust/prison-life/main/README.md"), true))()
 	end)
 
