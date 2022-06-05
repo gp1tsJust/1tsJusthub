@@ -143,7 +143,7 @@ Event:InvokeServer(A_1)
     local ChatSection = Main:NewSection("Chat Spam")
 
     ChatSection:NewButton("Chat Spam", "Chat Spam", function()
-        local Insults = {"1tsJustHub v2, 1tsJustHub is Cool", "Credit 1tsJustgp", "1tsJustHub is the best hub", "For Get It", "gp1tsJust#3203", "DiscordServer https://discord.gg/RTgpbncW", "For Get It!"}
+        local Insults = {"1tsJustHub v2, 1tsJustHub is Cool", "Credit 1tsJustgp", "1tsJustHub is the best hub", "Very op Script", "gp1tsJust#3203", "DiscordServer https://discord.gg/RTgpbncW", "For Get It!"}
 
 spawn(function()
     while true do
