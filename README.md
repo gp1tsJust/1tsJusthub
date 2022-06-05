@@ -28,6 +28,20 @@ if game.PlaceId == 155615604 then
     end)
 
 
+    MainSection:NewKeybind("Give u AK and Remington instant", "Give u AK and Remington instant (Press Q)", Enum.KeyCode.Q, function()
+        local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver["AK-47"].ITEMPICKUP
+        local Event = game:GetService("Workspace").Remote.ItemHandler
+        Event:InvokeServer(A_1)
+
+        wait (0.1)
+
+        local A_1 = game:GetService("Workspace")["Prison_ITEMS"].giver["Remington 870"].ITEMPICKUP
+        local Event = game:GetService("Workspace").Remote.ItemHandler
+        Event:InvokeServer(A_1)
+    end)
+    
+
+
     MainSection:NewButton("Give Weapon", "Give u Hammer and Knife", function()
         local A_1 = game:GetService("Workspace")["Prison_ITEMS"].single["Crude Knife"].ITEMPICKUP
 local Event = game:GetService("Workspace").Remote.ItemHandler
@@ -40,11 +54,12 @@ local Event = game:GetService("Workspace").Remote.ItemHandler
 Event:InvokeServer(A_1)
     end)
     
-    MainSection:NewButton("KeyCard", "Chiave anale", function()
-         local A_1 = game:GetService("Workspace")["Prison_ITEMS"].single["Key card"].ITEMPICKUP
+    MainSection:NewKeybind("KeyCard", "Give u KeyCard", Enum.KeyCode.E, function()
+        local A_1 = game:GetService("Workspace")["Prison_ITEMS"].single["Key card"].ITEMPICKUP
         local Event = game:GetService("Workspace").Remote.ItemHandler
         Event:InvokeServer(A_1)
     end)
+    
 
     MainSection:NewButton("Btools", "Btools", function()
         local ScreenGui = Instance.new("ScreenGui")
