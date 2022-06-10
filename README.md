@@ -3,7 +3,7 @@
 
 if game.PlaceId == 155615604 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(Prison Life)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(Prison Life)", "DarkTheme")
     
     --MAIN
     local Main = Window:NewTab("Main")
@@ -747,7 +747,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 
 elseif game.PlaceId == 882399924 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
     --misc
     local Main = Window:NewTab("Misc")
@@ -1225,7 +1225,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 elseif game.PlaceId == 478132461 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
     --misc
     local Main = Window:NewTab("Misc")
@@ -1720,7 +1720,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 elseif game.PlaceId == 569994010 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
     --misc
     local Main = Window:NewTab("Misc")
@@ -2215,7 +2215,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 elseif game.PlaceId == 2046990924 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
     --misc
     local Main = Window:NewTab("Misc")
@@ -2713,7 +2713,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 elseif game.PlaceId == 2651456105 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
     --misc
     local Main = Window:NewTab("Misc")
@@ -3206,7 +3206,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
 elseif game.PlaceId == 3552157537 then
 
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
     --misc
     local Main = Window:NewTab("Misc")
