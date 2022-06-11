@@ -1126,6 +1126,71 @@ end)
 end)
 	end)
 
+    BullySection:NewKeybind("Fast God", "Fast God Form", Enum.KeyCode.U, function()
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("ReplicatedStorage").ResetChar:FireServer()
+        wait(0.4)
+        local args = {
+            [1] = "h"
+        }
+        
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer(unpack(args))
+        wait(0.4)
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        
+        getgenv().showstats = true
+        getgenv().Zenni = true
+        getgenv().resettop = true 
+        getgenv().RespawnLowKi = true
+        getgenv().movespam = true;
+        getgenv().noslow = true;
+        getgenv().Spambans = true;
+        local plr = game.Players.LocalPlayer 
+    end)
+    
+
 
 
     BullySection:NewButton("Melee Spam", "Press V to spam", function()
@@ -1239,7 +1304,6 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     SPACEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE]]
 
 elseif game.PlaceId == 478132461 then
-
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
@@ -1604,6 +1668,71 @@ end)
 end)
 	end)
 
+    BullySection:NewKeybind("Fast God", "Fast God Form", Enum.KeyCode.U, function()
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("ReplicatedStorage").ResetChar:FireServer()
+        wait(0.4)
+        local args = {
+            [1] = "h"
+        }
+        
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer(unpack(args))
+        wait(0.4)
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        
+        getgenv().showstats = true
+        getgenv().Zenni = true
+        getgenv().resettop = true 
+        getgenv().RespawnLowKi = true
+        getgenv().movespam = true;
+        getgenv().noslow = true;
+        getgenv().Spambans = true;
+        local plr = game.Players.LocalPlayer 
+    end)
+    
+
 
 
     BullySection:NewButton("Melee Spam", "Press V to spam", function()
@@ -1665,6 +1794,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     local CreditSection = Main:NewSection("Credit to 1tsJustgp")
 	local DsSection = Main:NewSection("Discord private gp1tsJust#3203")
 	local DserverSection = Main:NewSection("Server Discord https://discord.gg/TWqQNcpN")
+
 
 
     --[[FUTUREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
@@ -1734,7 +1864,6 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     FUTUREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE]]
 
 elseif game.PlaceId == 569994010 then
-
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
@@ -2099,6 +2228,71 @@ end)
 end)
 	end)
 
+    BullySection:NewKeybind("Fast God", "Fast God Form", Enum.KeyCode.U, function()
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("ReplicatedStorage").ResetChar:FireServer()
+        wait(0.4)
+        local args = {
+            [1] = "h"
+        }
+        
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer(unpack(args))
+        wait(0.4)
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        
+        getgenv().showstats = true
+        getgenv().Zenni = true
+        getgenv().resettop = true 
+        getgenv().RespawnLowKi = true
+        getgenv().movespam = true;
+        getgenv().noslow = true;
+        getgenv().Spambans = true;
+        local plr = game.Players.LocalPlayer 
+    end)
+    
+
 
 
     BullySection:NewButton("Melee Spam", "Press V to spam", function()
@@ -2160,6 +2354,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     local CreditSection = Main:NewSection("Credit to 1tsJustgp")
 	local DsSection = Main:NewSection("Discord private gp1tsJust#3203")
 	local DserverSection = Main:NewSection("Server Discord https://discord.gg/TWqQNcpN")
+
 
 
     --[[SECRETTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT
@@ -2229,7 +2424,6 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     SECRETTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTTT]]
 
 elseif game.PlaceId == 2046990924 then
-
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
@@ -2594,6 +2788,71 @@ end)
 end)
 	end)
 
+    BullySection:NewKeybind("Fast God", "Fast God Form", Enum.KeyCode.U, function()
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("ReplicatedStorage").ResetChar:FireServer()
+        wait(0.4)
+        local args = {
+            [1] = "h"
+        }
+        
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer(unpack(args))
+        wait(0.4)
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        
+        getgenv().showstats = true
+        getgenv().Zenni = true
+        getgenv().resettop = true 
+        getgenv().RespawnLowKi = true
+        getgenv().movespam = true;
+        getgenv().noslow = true;
+        getgenv().Spambans = true;
+        local plr = game.Players.LocalPlayer 
+    end)
+    
+
 
 
     BullySection:NewButton("Melee Spam", "Press V to spam", function()
@@ -2655,6 +2914,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     local CreditSection = Main:NewSection("Credit to 1tsJustgp")
 	local DsSection = Main:NewSection("Discord private gp1tsJust#3203")
 	local DserverSection = Main:NewSection("Server Discord https://discord.gg/TWqQNcpN")
+    
 
     --[[ZAROSSSSS
     
@@ -2727,7 +2987,6 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     ZAROSSSSSSSSSSSS]]
 
 elseif game.PlaceId == 2651456105 then
-
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
@@ -3091,6 +3350,71 @@ end
 end)
 end)
 	end)
+
+    BullySection:NewKeybind("Fast God", "Fast God Form", Enum.KeyCode.U, function()
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("ReplicatedStorage").ResetChar:FireServer()
+        wait(0.4)
+        local args = {
+            [1] = "h"
+        }
+        
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer(unpack(args))
+        wait(0.4)
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        
+        getgenv().showstats = true
+        getgenv().Zenni = true
+        getgenv().resettop = true 
+        getgenv().RespawnLowKi = true
+        getgenv().movespam = true;
+        getgenv().noslow = true;
+        getgenv().Spambans = true;
+        local plr = game.Players.LocalPlayer 
+    end)
+    
 
 
 
@@ -3220,7 +3544,6 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     heaven]]
 
 elseif game.PlaceId == 3552157537 then
-
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
     local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
@@ -3585,6 +3908,71 @@ end)
 end)
 	end)
 
+    BullySection:NewKeybind("Fast God", "Fast God Form", Enum.KeyCode.U, function()
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "decrease"},[2] = true}))
+        game:GetService("ReplicatedStorage").ResetChar:FireServer()
+        wait(0.4)
+        local args = {
+            [1] = "h"
+        }
+        
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Transform:FireServer(unpack(args))
+        wait(0.4)
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        game:GetService("Players").LocalPlayer.Backpack.ServerTraits.Input:FireServer(unpack( {[1] = {[1] = "increase"},[2] = true}))
+        
+        getgenv().showstats = true
+        getgenv().Zenni = true
+        getgenv().resettop = true 
+        getgenv().RespawnLowKi = true
+        getgenv().movespam = true;
+        getgenv().noslow = true;
+        getgenv().Spambans = true;
+        local plr = game.Players.LocalPlayer 
+    end)
+    
+
 
 
     BullySection:NewButton("Melee Spam", "Press V to spam", function()
@@ -3646,6 +4034,7 @@ _cMhlNnFWdeO1FLGW, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
     local CreditSection = Main:NewSection("Credit to 1tsJustgp")
 	local DsSection = Main:NewSection("Discord private gp1tsJust#3203")
 	local DserverSection = Main:NewSection("Server Discord https://discord.gg/TWqQNcpN")
+
 
     
 
