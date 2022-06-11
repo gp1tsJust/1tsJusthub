@@ -233,7 +233,7 @@ pl.CFrame = location
 
 elseif game.PlaceId == 536102540 then
     local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
-    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "Sentinel")
+    local Window = Library.CreateLib("1tsJustHub v2(DBZ FS)", "DarkTheme")
     
     --misc
     local Main = Window:NewTab("Misc")
